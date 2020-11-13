@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>426 Twitter</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="box columns is-mobile is-centered">
+        <div class="column is-one-quarter has-background-primary"></div>
+        <div class="column is-half">
+            <h1 class="title has-text-primary">COMP426 <i class="fa fa-twitter"></i></h1>
+            
+            <br>
+            <h3 class="is-primary">Tweet Something!</h3>
+            
+            <button class="button is-primary is-large" id="create">Create&nbsp;<i class="fa fa-pencil-square-o"></i></button>
+            
+            <div id="root"></div>
+        </div>
+        <div class="column is-one-quarter has-background-primary"></div>
+    </div>
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="node_modules/axios/dist/axios.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
